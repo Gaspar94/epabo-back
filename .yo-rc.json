@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.epabo",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "EPABO",
+    "packageName": "com.epabo",
+    "packageFolder": "com/epabo",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTBlMGY5NzA4MDU0ZjJmYWI2ZTZjMjgxMTMwYWRlOTIxYmM1OTk2MDVmNTAyOTEyNzYzMmIxMDY3OTQwMGFiZGZkZjgzMWQ3N2MyZmFhODE3YzRhNjM3N2RiY2IwMzBmODAyZWI5NmEwZDhkOWNkNWI3N2MwOTM0NDVlODQ5MzU=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": ["es"]
+  }
+}

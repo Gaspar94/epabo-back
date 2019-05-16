@@ -1,0 +1,14 @@
+
+${AnsiColor.GREEN} _______   ________  ________  ________  ________     
+${AnsiColor.GREEN}|\  ___ \ |\   __  \|\   __  \|\   __  \|\   __  \    
+${AnsiColor.GREEN}\ \   __/|\ \  \|\  \ \  \|\  \ \  \|\ /\ \  \|\  \   
+${AnsiColor.GREEN} \ \  \_|/_\ \   ____\ \   __  \ \   __  \ \  \\\  \  
+${AnsiColor.GREEN}  \ \  \_|\ \ \  \___|\ \  \ \  \ \  \|\  \ \  \\\  \ 
+${AnsiColor.GREEN}   \ \_______\ \__\    \ \__\ \__\ \_______\ \_______\
+${AnsiColor.GREEN}    \|_______|\|__|     \|__|\|__|\|_______|\|_______|
+${AnsiColor.BRIGHT_BLUE}:: EPABO 🤓  :: Running Spring Boot ${spring-boot.version} ::
+:: EPABO 2018 ::${AnsiColor.DEFAULT}
+
+                                                      
+                                                      
+                                                      

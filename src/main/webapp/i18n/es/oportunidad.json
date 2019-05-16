@@ -1,0 +1,27 @@
+{
+  "epaboApp": {
+    "oportunidad": {
+      "home": {
+        "title": "Oportunidads",
+        "createLabel": "Crear nuevo Oportunidad",
+        "createOrEditLabel": "Crear o editar Oportunidad"
+      },
+      "created": "Un nuevo Oportunidad ha sido creado con el identificador {{ param }}",
+      "updated": "Un Oportunidad ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Oportunidad ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Oportunidad {{ id }}?"
+      },
+      "detail": {
+        "title": "Oportunidad"
+      },
+      "descripcion": "Descripcion",
+      "fecha": "Fecha",
+      "ubicacion": "Ubicacion",
+      "autor": "Autor",
+      "email": "Email",
+      "tags": "Tags",
+      "urlImagen": "Url Imagen"
+    }
+  }
+}

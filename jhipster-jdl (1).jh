@@ -1,0 +1,18 @@
+entity Gasto {
+	descripcion String required
+    fecha Date
+    fechaModificacion Date
+    montoGasto Double required
+    userId Long required
+}
+
+entity Oportunidad{
+	descripcion String required
+    fecha Date
+    ubicacion String required
+    autor Long required
+    email String required
+    tags List<String> required
+    urlImagen String
+}
+
