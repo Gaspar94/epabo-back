@@ -334,20 +334,20 @@
 			<artifactId>metrics-core</artifactId>
 		</dependency>
 		<!-- jhipster-needle-maven-add-dependency -->
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-undertow</artifactId>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>javax.servlet</groupId> -->
+<!-- 			<artifactId>javax.servlet-api</artifactId> -->
+<!-- 			<scope>provided</scope> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.springframework.boot</groupId> -->
+<!-- 			<artifactId>spring-boot-starter-undertow</artifactId> -->
+<!-- 			<scope>provided</scope> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.h2database</groupId> -->
+<!-- 			<artifactId>h2</artifactId> -->
+<!-- 		</dependency> -->
 	</dependencies>
 
 	<build>
