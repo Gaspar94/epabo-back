@@ -1,0 +1,29 @@
+= EPABO API
+
+
+[[_overview]]
+== Overview
+EPABO API documentation
+
+
+=== Version information
+[%hardbreaks]
+__Version__ : 0.0.1
+
+
+=== URI scheme
+[%hardbreaks]
+__Host__ : localhost:8080
+__BasePath__ : /
+
+
+=== Tags
+
+* account-resource : Account Resource
+* gasto-resource : Gasto Resource
+* oportunidad-resource : Oportunidad Resource
+* user-jwt-controller : User JWT Controller
+* user-resource : User Resource
+
+
+

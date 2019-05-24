@@ -1,0 +1,205 @@
+
+[[_definitions]]
+== Definitions
+
+[[_gasto]]
+=== Gasto
+
+[options="header", cols=".^3,.^4"]
+|===
+|Name|Schema
+|**descripcion** +
+__required__|string
+|**fecha** +
+__optional__|string (date)
+|**fechaModificacion** +
+__optional__|string (date)
+|**id** +
+__optional__|integer (int64)
+|**montoGasto** +
+__required__|number (double)
+|**userId** +
+__required__|integer (int64)
+|===
+
+
+[[_jwttoken]]
+=== JWTToken
+
+[options="header", cols=".^3,.^4"]
+|===
+|Name|Schema
+|**id_token** +
+__optional__|string
+|===
+
+
+[[_keyandpasswordvm]]
+=== KeyAndPasswordVM
+
+[options="header", cols=".^3,.^4"]
+|===
+|Name|Schema
+|**key** +
+__optional__|string
+|**newPassword** +
+__optional__|string
+|===
+
+
+[[_loginvm]]
+=== LoginVM
+
+[options="header", cols=".^3,.^11,.^4"]
+|===
+|Name|Description|Schema
+|**password** +
+__required__|**Length** : `4 - 100`|string
+|**rememberMe** +
+__optional__||boolean
+|**username** +
+__required__|**Length** : `1 - 50`|string
+|===
+
+
+[[_manageduservm]]
+=== ManagedUserVM
+
+[options="header", cols=".^3,.^11,.^4"]
+|===
+|Name|Description|Schema
+|**activated** +
+__optional__||boolean
+|**authorities** +
+__optional__||< string > array
+|**createdBy** +
+__optional__||string
+|**createdDate** +
+__optional__||string (date-time)
+|**email** +
+__optional__|**Length** : `5 - 254`|string
+|**firstName** +
+__optional__|**Length** : `0 - 50`|string
+|**id** +
+__optional__||integer (int64)
+|**imageUrl** +
+__optional__|**Length** : `0 - 256`|string
+|**langKey** +
+__optional__|**Length** : `2 - 6`|string
+|**lastModifiedBy** +
+__optional__||string
+|**lastModifiedDate** +
+__optional__||string (date-time)
+|**lastName** +
+__optional__|**Length** : `0 - 50`|string
+|**login** +
+__optional__|**Length** : `1 - 50` +
+**Pattern** : `"^[_.@A-Za-z0-9-]*$"`|string
+|**password** +
+__optional__|**Length** : `4 - 100`|string
+|===
+
+
+[[_oportunidad]]
+=== Oportunidad
+
+[options="header", cols=".^3,.^4"]
+|===
+|Name|Schema
+|**autor** +
+__required__|integer (int64)
+|**descripcion** +
+__required__|string
+|**email** +
+__required__|string
+|**fecha** +
+__optional__|string (date)
+|**id** +
+__optional__|integer (int64)
+|**tags** +
+__required__|string
+|**ubicacion** +
+__required__|string
+|**urlImagen** +
+__optional__|string
+|===
+
+
+[[_passwordchangedto]]
+=== PasswordChangeDTO
+
+[options="header", cols=".^3,.^4"]
+|===
+|Name|Schema
+|**currentPassword** +
+__optional__|string
+|**newPassword** +
+__optional__|string
+|===
+
+
+[[_user]]
+=== User
+
+[options="header", cols=".^3,.^11,.^4"]
+|===
+|Name|Description|Schema
+|**activated** +
+__required__||boolean
+|**email** +
+__optional__|**Length** : `5 - 254`|string
+|**firstName** +
+__optional__|**Length** : `0 - 50`|string
+|**id** +
+__optional__||integer (int64)
+|**imageUrl** +
+__optional__|**Length** : `0 - 256`|string
+|**langKey** +
+__optional__|**Length** : `2 - 6`|string
+|**lastName** +
+__optional__|**Length** : `0 - 50`|string
+|**login** +
+__required__|**Length** : `1 - 50` +
+**Pattern** : `"^[_.@A-Za-z0-9-]*$"`|string
+|**resetDate** +
+__optional__||string (date-time)
+|===
+
+
+[[_userdto]]
+=== UserDTO
+
+[options="header", cols=".^3,.^11,.^4"]
+|===
+|Name|Description|Schema
+|**activated** +
+__optional__||boolean
+|**authorities** +
+__optional__||< string > array
+|**createdBy** +
+__optional__||string
+|**createdDate** +
+__optional__||string (date-time)
+|**email** +
+__optional__|**Length** : `5 - 254`|string
+|**firstName** +
+__optional__|**Length** : `0 - 50`|string
+|**id** +
+__optional__||integer (int64)
+|**imageUrl** +
+__optional__|**Length** : `0 - 256`|string
+|**langKey** +
+__optional__|**Length** : `2 - 6`|string
+|**lastModifiedBy** +
+__optional__||string
+|**lastModifiedDate** +
+__optional__||string (date-time)
+|**lastName** +
+__optional__|**Length** : `0 - 50`|string
+|**login** +
+__optional__|**Length** : `1 - 50` +
+**Pattern** : `"^[_.@A-Za-z0-9-]*$"`|string
+|===
+
+
+
